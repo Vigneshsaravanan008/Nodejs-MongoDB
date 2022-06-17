@@ -5,9 +5,13 @@ Step 1:git init //Initialzied empty git repository
 
 Step 2:git add .
 
-Step 3:git branch -M main
+Step 3:git commit -m "Initial Commit" 
 
-Step 4:git commit -m "Initial Commit" 
+//git pull
+
+//git push 
+
+Step 4:git branch -M main
 
 Step 5:git remote add origin (git HTTPS URL)
 
@@ -21,7 +25,7 @@ Step 5:git remote add origin (git HTTPS URL)
 
     ------------x--------------
 
-Step 5:git push -u origin master
+Step 5:git push -u origin main
 
 
 
@@ -49,7 +53,7 @@ VIM
 
 Step 1:git remote -v (verbose)
 
-git push origin master
+git push origin main
 username:
 password:
 
@@ -66,3 +70,24 @@ step 3:git status
 Step 4:git add .
 
 Step 5:git commit -m "changes files"
+
+
+----------------------------------------------------------------------------------------------------------------
+…or create a new repository on the command line
+-----------------------------------------------
+echo "# Nodejs-MongoDB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Vigneshsaravanan008/Nodejs-MongoDB.git
+git push -u origin main
+
+…or push an existing repository from the command line
+-----------------------------------------------------
+
+git remote add origin https://github.com/Vigneshsaravanan008/Nodejs-MongoDB.git
+git branch -M main
+git push -u origin main
+
+
