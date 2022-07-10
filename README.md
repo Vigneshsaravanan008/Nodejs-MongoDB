@@ -66,3 +66,8 @@ step 3:git status
 Step 4:git add .
 
 Step 5:git commit -m "changes files"
+
+
+git clone
+----------
+git clone "https//:url"
